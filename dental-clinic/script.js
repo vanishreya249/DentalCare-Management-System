@@ -139,7 +139,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     payload.service = serviceEl.value;
                 }
 
-                const webhookUrl = 'https://script.google.com/macros/s/AKfycby1A_I4atGeM0eHXIvO5aiOVe7rpO8GqtFmEB0BwMG-jaXKfT0od6ygMQD-rjdY2WNp/exec';
+                const webhookUrl = 'https://script.google.com/macros/s/URL/exec';
 
                 try {
                     await fetch(webhookUrl, {
